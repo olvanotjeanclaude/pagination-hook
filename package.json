@@ -1,8 +1,9 @@
 {
   "name": "pagination-hook",
   "version": "1.0.0",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "description": "A TypeScript React hook for paginated, searchable, and filterable data",
-  "main": "src/index.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "tsc",

@@ -40,11 +40,13 @@ function matchesAllFilters<T extends Record<string, any>>(
   item: T,
   activeFilters: Partial<Record<keyof T, FilterValue<T>>>
 ): boolean {
-  return Object.entries(activeFilters).every(([key, filterValue]) => {
+  return (Object.keys(activeFilters) as (keyof T)[]).every((key) => {
+    const filterValue = activeFilters[key];
     if (filterValue === "ALL" || filterValue === null) return true;
-    return item[key as keyof T] === filterValue;
+    return item[key] === filterValue;
   });
 }
+
 
 function getDefaultSearchKeys<T extends Record<string, any>>(item: T): (keyof T)[] {
   return Object.keys(item).filter((key) => typeof item[key as keyof T] === "string") as (keyof T)[];
