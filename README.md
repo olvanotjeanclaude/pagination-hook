@@ -18,9 +18,9 @@ Fully typed, generic, and reusable for any array of objects.
 ## Installation
 
 ```bash
-npm install pagination-hook
+npm install react-paginate-filter
 # or
-yarn add pagination-hook
+yarn add react-paginate-filter
 ```
 
 ---
@@ -29,7 +29,7 @@ yarn add pagination-hook
 
 ```tsx
 import React from "react";
-import { usePagination, FilterValue } from "pagination-hook";
+import { usePagination, FilterValue } from "react-paginate-filter";
 
 interface User {
   name: string;
