@@ -1,0 +1,38 @@
+{
+  "name": "pagination-hook",
+  "version": "1.0.0",
+  "description": "A TypeScript React hook for paginated, searchable, and filterable data",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc",
+    "lint": "eslint 'src/**/*.{ts,tsx}'",
+    "prepare": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/olvanotjeanclaude/pagination-hook.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "hook",
+    "pagination",
+    "search",
+    "filter"
+  ],
+  "author": "olvanot/olvanotjcs@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olvanotjeanclaude/pagination-hook/issues"
+  },
+  "homepage": "https://github.com/olvanotjeanclaude/pagination-hook#readme",
+  "devDependencies": {
+    "@types/react": "^19.2.4",
+    "eslint": "^9.39.1",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "react": "^19.2.0"
+  }
+}
