@@ -1,6 +1,6 @@
 {
   "name": "react-paginate-filter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "description": "A TypeScript React hook for paginated, searchable, and filterable data",
