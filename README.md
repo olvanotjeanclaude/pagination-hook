@@ -140,13 +140,13 @@ An object containing:
 ```typescript
 type FilterValue<T> = T[keyof T] | "ALL" | null;
 
-interface UsePaginatedFilterOptions<T> {
+interface FilterOptions<T> {
   itemsPerPage?: number;
   searchKeys?: (keyof T)[];
   filters?: Partial<Record<keyof T, FilterValue<T>>>;
 }
 
-interface UsePaginatedFilterReturn<T> {
+interface FilterReturn<T> {
   paginatedData: T[];
   filteredData: T[];
   currentPage: number;
