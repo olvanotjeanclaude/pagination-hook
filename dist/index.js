@@ -13,11 +13,11 @@ function matchesAllFilters(item, activeFilters) {
         const filterValue = activeFilters[key];
         if (filterValue === "ALL" || filterValue === null)
             return true;
-        return item[key] === filterValue;
+        return item[key] == filterValue;
     });
 }
 function getDefaultSearchKeys(item) {
-    return Object.keys(item).filter((key) => typeof item[key] === "string");
+    return Object.keys(item).filter((key) => typeof item[key] == "string");
 }
 /**
  * usePagination
