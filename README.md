@@ -5,6 +5,12 @@ Fully typed, generic, and reusable for any array of objects.
 
 ---
 
+## Live Demo
+
+Check out the live demo of this project:
+
+[View the Demo](https://olvanotjeanclaude.github.io/demo-paginate-filter) 
+
 ## Features
 
 - Pagination with customizable items per page
