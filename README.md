@@ -3,13 +3,16 @@
 A **TypeScript React hook** for **paginated, searchable, and filterable data**.  
 Fully typed, generic, and reusable for any array of objects.
 
----
+## 🔗 Live Demo
 
-## Live Demo
+Check out the live demo of this project or try it directly in an online editor:
 
-Check out the live demo of this project:
+- **Live Preview (Vercel)**: [View the Demo](https://demo-paginate-filter.vercel.app/)  
+- **Try it Online (CodeSandbox)**: [Open in CodeSandbox](https://codesandbox.io/p/sandbox/github/olvanotjeanclaude/demo-paginate-filter)
 
-[View the Demo](https://demo-paginate-filter.vercel.app/) 
+<p align="center">
+  <img src="./public/user-directory.png" alt="Demo Screenshot" width="600" />
+</p>
 
 ## Features
 
